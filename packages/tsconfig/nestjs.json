@@ -1,6 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
   "display": "nestjs",
-  "extends": "./base.json",
-  "include": ["src"]
+  "extends": "./base.json"
 }
