@@ -8,10 +8,10 @@ node_modules
 # testing
 coverage
 
-# next.js
 .next/
 out/
 build
+**/dist/*
 
 # misc
 .DS_Store
@@ -31,3 +31,10 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+# data
+.data
+
+# logs
+.logs
+packages/tsconfig/dist/tsconfig.build.tsbuildinfo
