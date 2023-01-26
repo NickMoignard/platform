@@ -1,0 +1,3 @@
+[submodule "packages/authz"]
+	path = packages/authz
+	url = git@github.com:NickMoignard/platform-authz.git
